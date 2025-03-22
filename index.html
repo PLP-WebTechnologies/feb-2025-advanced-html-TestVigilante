@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 HTML Assignment</title>
+</head>
+<body>
+
+    <!-- Ordered list with roman numerals-->
+
+    <h3>List Of Programming Languages</h3>
+    <ol type="i">
+        <li>Python</li>
+        <li>Java</li>
+        <li>C++</li>
+        <li>Javascript</li>
+        <li>Kotlin</li>
+        <li>Ruby</li>
+        <li>Swift</li>
+        <li>Go</li>
+        <li>PHP</li>
+    </ol>
+
+    <!--External image from pexel.com-->
+
+    <img 
+    src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=600" 
+    alt="A developer writing lines of code"
+    width="400" height="300">
+
+    <!--Table of 5 contacts with name, address, mobile and email-->
+
+    <table>
+        <caption>Developers Contact Table</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sam Onyango</td>
+                <td>Kiambu</td>
+                <td>0712987876</td>
+                <td>samo@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>June Chebet</td>
+                <td>Kisumu</td>
+                <td>0732145234</td>
+                <td>cheb@outlook.com</td>
+            </tr>
+            <tr>
+                <td>Abdul Ali</td>
+                <td>Kitui</td>
+                <td>0756765890</td>
+                <td>aliabdul@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Jean Marrie</td>
+                <td>Nairobi</td>
+                <td>0772132534</td>
+                <td>jmarrie@yahoo.com</td>
+            </tr>
+            <tr>
+                <td>Esther Wanjiku</td>
+                <td>Kakamega</td>
+                <td>0765098364</td>
+                <td>essie@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <!--Developer Registration Form-->
+    <h3>Developers Registration Form</h3>
+    <form action="" method="post">
+        <!--Name Input-->
+        <label for="name">Name</label><br>
+        <input type="text" name="name" id="name" placeholder="Enter Full Name"><br><br>
+
+        <!--Email Address Input-->
+        <label for="email_address">Email Address</label><br>
+        <input type="email" name="email_address" id="email_address" required><br><br>
+
+        <!--Gender Selection-->
+        <label for="gender">Gender</label><br>
+        <input type="radio" name="gender" id="male" value="male">Male <br>
+        <input type="radio" name="gender" id="male" value="female">Female <br><br>
+
+        <!--Date Of Birth Input-->
+        <label for="dob">Date of Birth</label><br>
+        <input type="date" name="dob" id="dob"><br><br>
+
+        <!--Place of Residence-->
+        <label for="residence">Residence</label><br>
+        <select name="residence" id="residence">
+            <option value="--Residence--">--Choose Residence--</option>
+            <option value="--Residence--">Muran'ga</option>
+            <option value="--Residence--">Kiambu</option>
+            <option value="--Residence--">Kitui</option>
+            <option value="--Residence--">Makueni</option>
+            <option value="--Residence--">Machakos</option>
+            <option value="--Residence--">Nyeri</option>
+            <option value="--Residence--">Nairobi</option>
+            <option value="--Residence--">Mombasa</option>
+            <option value="--Residence--">Garissa</option>
+            <option value="--Residence--">Wajir</option>
+            <option value="--Residence--">Mandera</option>
+            <option value="--Residence--">Isiolo</option>
+            <option value="--Residence--">Meru</option>
+            <option value="--Residence--">Kirinyaga</option>
+            <option value="--Residence--">Tana River</option>
+            <option value="--Residence--">Kakamega</option>
+            <option value="--Residence--">Kisumu</option>
+            <option value="--Residence--">Migori</option>
+            <option value="--Residence--">Siaya</option>
+            <option value="--Residence--">Kilifi</option>
+            <option value="--Residence--">Taita Taveta</option>
+        </select><br><br>
+
+        <!--Conversant Languages-->
+        <label for="code_languages">Conversant Programming Languages</label><br>
+        <input type="checkbox" name="code_languages" id="kotlin" value="Kotlin">Kotlin
+        <input type="checkbox" name="code_languages" id="java" value="Java">Java
+        <input type="checkbox" name="code_languages" id="c++" value="C++">C++
+        <input type="checkbox" name="code_languages" id="swift" value="Swift">Swift
+        <input type="checkbox" name="code_languages" id="javascript" value="Javascript">Javascript
+        <input type="checkbox" name="code_languages" id="python" value="Python">Python <br><br>
+
+        <!--Password Input-->
+        <label for="password">Password</label><br>
+        <input type="password" name="password" id="password" placeholder="Enter Password" required><br><br>
+
+
+    </form>
+    <footer>
+        <h3>Thanks for reading through. Looking forward to you interacting often with my content.</h3>
+    </footer>
+    
+</body>
+</html>
